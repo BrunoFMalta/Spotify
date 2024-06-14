@@ -4,16 +4,24 @@
     
     
 }
+
 .container{
-	display: inline;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+h1{
+	
 	color: #722bef;
-	align-items: center;
+	
 	
 }
 
-.img{
-	display: inline;
-}
+
 
 * {
 	box-sizing: border-box;
